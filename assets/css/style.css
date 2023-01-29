@@ -87,9 +87,9 @@ nav.nav-bar { /* Selects the nav element with the class name nav-bar */
 /* MAIN AREA */
 /* MAIN area wrapper */
 .content { /* Selects any element with the "content" class */
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    width: 75%;    /* Sets the width of the main area to 75% */
+    display: inline-block; /* Sets the display to inline-block */
+    margin-left: 20px; /* Sets the margin-left to 20px */
 }
 /* End o MAIN AREA wrapper */
 /* MAIN area entries */
@@ -102,11 +102,11 @@ nav.nav-bar { /* Selects the nav element with the class name nav-bar */
     background-color: #0072bb;  /* Sets the background color to #0072bb */
     color: #ffffff; /* Sets the text color to white */
 }
-.content article figure img {
-    width: 100%; 
-    height: auto; 
-    max-height: 200px;
-    object-fit: cover;  
+.content article figure img { /* Select each Articles figure element image, inside MAIN element with class */
+    width: 100%;  /* Sets the width to 100% */
+    height: auto;  /* Sets the height to auto */
+    max-height: 200px; /* Sets the max-height to 200px */
+    object-fit: cover;    /* Sets the object-fit to cover */
 }
 .content article .main-article-title { /* Selects MAIN ARTICLE elements title with a class  "main-article-title "*/
     margin-bottom: 20px; /* Sets bottom margin for the MAIN ARTICLE H2 title */
@@ -138,7 +138,7 @@ aside article h3.benefit-title { /* Select all ASIDE ARTICLE H3 titles with "ben
     text-align: center; /* Setting the text-align to center for h3 */
 }
 aside article.benefit-item figure img { /* Selects all ASIDE ARTICLE FIGURES with "benefit-item" class */
-    display: block;     
+    display: block;      /* Setting the display to block for all ASIDE ARTICLE FIGURES */
     margin: 10px auto; /* Setting the margin for the "benefit-item" class so its automatic with 10px from left and right */
     max-width: 150px; /* Setting the max-width for the "benefit-item" class so its automatic with 150px from left and right */
 }
@@ -146,13 +146,13 @@ aside article.benefit-item figure img { /* Selects all ASIDE ARTICLE FIGURES wit
 /*  END OF ASIDE AREA */
 
 /* FOOTER AREA */
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+.footer {  /* Selects any element with the class "footer" */
+    padding: 30px; /* Sets the padding to 30px */
+    clear: both; /* Sets the clear to both */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  /* Sets the font family to Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif */
+    text-align: center; /* Sets the text-align to center */
 }
 
-.footer .footer-title {
-    font-size: 20px;
+.footer .footer-title { /* Selects any element with .footer-title element with the class "footer-title" that has a parent with the class ".footer" */
+    font-size: 20px; /* Sets the font size to 20px */
 }
