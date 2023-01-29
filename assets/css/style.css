@@ -79,7 +79,7 @@ nav.nav-bar { /* Selects the nav element with the class name nav-bar */
     height: 800px; /* Sets the height of the hero area */
     width: 100%;    /* Sets the width of the hero area */
     margin-bottom: 25px; /* Sets the bottom margin of the hero area */
-    background-image: url("../images/digital-marketing-meeting.jpg"); /* Sets the background image of the hero area */
+    background-image: url("../images/digital-marketing-meeting.webp"); /* Sets the background image of the hero area */
     background-size: cover; /* Sets the background size of the hero area to cover the set area of 100% and 800px high*/
     background-position: center center; /* Sets the background position of the hero area to center from top and bottom */
 }
