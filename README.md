@@ -1,1 +1,7 @@
-# uni-code-bootcamp-week-1-challenge
+# Code bootcamp - Week 1 Challenge
+
+## Code Refactoring
+
+### Live Link
+
+### Screenshot of the webpage
