@@ -1,95 +1,92 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+/* GLOBAL styles */
+* { /* This is a wildcard selector that will apply the below styling to all elements*/
+    box-sizing: border-box;  /* Sets the box sizing to be aligned to the box border*/
+    padding: 0;  /* Set the padding to zero */
+    margin: 0; /* Set the margins to zero */
 }
 
-body {
-    background-color: #d9dcd6;
+body { /* Main Body / Page / Document styling */
+    background-color: #d9dcd6; /* Page background color set to the HEX value*/
 }
-/* HEADER AREA 
-.header {
-    padding: 20px;
+
+.float-left { /* Selects any element with this class name */
+    float: left; /* Sets the float value to left so its aligned to left*/
+    margin-right: 25px; 
+}
+
+.float-right { /* Selects any element with this class name */
+    float: right; /* Sets the float value for this class, so its aligned to right */
+    margin-left: 25px; /* Sets the margin-left value for this class */
+}
+a { /* Selects all A elements on the page, like global link style */
+    color: #ffffff; /* Sets text color to white */
+    text-decoration: none; /* Removes text decoration */
+}
+
+p { /* Selecting all P elemnts on the page, like global style*/
+    font-size: 16px; /* Setting paragraph font size */
+}
+/* HEADER AREA */ 
+.header {  
+    padding: 20px; /* Sets the padding to 20px from all sides */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-} */
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-    display: flex;
-    vertical-align: middle;
-    align-content: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
+    background-color: #2a607c; /* Sets the background color to #2a607c */
+    color: #ffffff;  /* Sets the text color to white */
+    display: flex; /* Sets the display to flex, as i had issues getting things aligned */
+    vertical-align: middle; /* Sets the vertical alignment to middle */
+    align-content: center; /* Sets the alignment to center */
+    justify-content: space-between; /* Sets the alignment to center */
+    flex-wrap: wrap;    /* Sets the flex wrap to wrap */
+    flex-direction: row; /* Sets the flex direction to row */
+    align-items: center; /* Sets the alignment to center */
 }
-.header h1.logo-title {
-    display: inline-block;
-    font-size: 48px;
-    padding: 0;
-    margin: 0;
+.header h1.logo-title { /* Selects the h1 element with the class name logo-title */
+    display: inline-block; /* Sets the display to inline-block */
+    font-size: 48px; /* Sets the font size to 48px */
+    padding: 0; /* Sets the padding to 0 */
+    margin: 0; /* Sets the margin to 0 */
 }
 
-.header span.seo {
-    color: #d9dcd6;
+.header span.seo { /* Selects the span element with the class name seo */
+    color: #d9dcd6; /* Sets the text color to #d9dcd6 */
 }
 
-.header hgroup.header-logo {
-    padding-bottom: 15px;
-    margin-left: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    display: inline-block;
-    background-color: #2a607c;
-    float: left;
+.header hgroup.header-logo { /* Selects the hgroup element with the class name header-logo */
+    padding-bottom: 15px; /* Sets the padding-bottom to 15px */
+    margin-left: 20px; /* Sets the margin-left to 20px */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  /* Sets the font family to Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif */
+    font-size: 20px; /* Sets the font size to 20px */
+    display: inline-block; /* Sets the display to inline-block */
+    background-color: #2a607c; /* Sets the background color to #2a607c */
+    float: left; /* Sets the float value to left */
 }
-nav.nav-bar {
-    display: block;
-    float: right;
+nav.nav-bar { /* Selects the nav element with the class name nav-bar */
+    display: block; /* Sets the display to block */
+    float: right; /* Sets the float value to right */
 }
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+.header nav ul { /* Selects the ul element with the class name nav */
+    list-style-type: none; /* Sets the list-style-type to none */
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
+.header nav ul li { /* Selects the li element with the class name nav-item */
+    display: inline-block; /* Sets the display to inline-block */
+    margin-left: 25px; /* Sets the margin-left to 25px */
 }
-
-p {
-    font-size: 16px;
-}
+/* End of NAV BAR */
+/* End of HEADER AREA */
 /* HERO AREA */
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+.hero { /* Selects any element with the "hero" class */
+    height: 800px; /* Sets the height of the hero area */
+    width: 100%;    /* Sets the width of the hero area */
+    margin-bottom: 25px; /* Sets the bottom margin of the hero area */
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* Sets the background image of the hero area */
+    background-size: cover; /* Sets the background size of the hero area to cover the set area of 100% and 800px high*/
+    background-position: center center; /* Sets the background position of the hero area to center from top and bottom */
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 /* MAIN AREA */
 /* MAIN area wrapper */
-.content {
+.content { /* Selects any element with the "content" class */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -97,66 +94,53 @@ p {
 /* End o MAIN AREA wrapper */
 /* MAIN area entries */
 /* Box / wrapper styling for each ARTICLE entry */
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.content article { /* Selects any article element inside MAIN with the "content" class */
+    margin-bottom: 20px; /* Sets the margin-bottom to 20px */
+    padding: 50px; /* Sets the padding to 50px */
+    height: 300px; /* Sets the height to 300px */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Sets the font family to Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif */
+    background-color: #0072bb;  /* Sets the background color to #0072bb */
+    color: #ffffff; /* Sets the text color to white */
 }
 .content article figure img {
-    width: 100%;
-    height: auto;
+    width: 100%; 
+    height: auto; 
     max-height: 200px;
-    object-fit: cover;
+    object-fit: cover;  
 }
-.content article .main-article-title {
-    margin-bottom: 20px;
-    font-size: 36px;
+.content article .main-article-title { /* Selects MAIN ARTICLE elements title with a class  "main-article-title "*/
+    margin-bottom: 20px; /* Sets bottom margin for the MAIN ARTICLE H2 title */
+    font-size: 36px; /* Sets MAIN ARTICLE H2 title font size */
 }
 
 /* END OF MAIN AREA */
 /* ASIDE or SIDEBAR AREA for benefits*/
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
+aside.benefits { /* Selecting ASIDE element with a class "benefits" */
+    margin-right: 20px; /* right margin for aside or sidebar */
+    padding: 20px; /* padding from all sides for aside or sidebar */
     clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    float: right; /* float aside or sidebar to the right */
+    width: 20%; /* width of aside or sidebar set to 20% */
+    height: 100%; /* height of aside or sidebar set to 100% */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* font family for aside or sidebar */
+    background-color: #2589bd; /* background color for aside or sidebar */
 }
 /* ASIDE area entries */
 /* ASIDE entry box / wrapper styling for each Benefit entry */
-aside article.benefit-item {
-    margin-bottom: 32px;
-    color: #ffffff;
+aside article.benefit-item { /* Selects all ASIDE "article" elements */
+    margin-bottom: 32px; /* Sets the bottom margin of the ASIDE "article" elements */
+    color: #ffffff; /* Sets the text color for the whole ASIDE "article" elements */
 }
 
 /* Setting ASIDE entry h3 tag style */
-aside article h3.benefit-title {
-    margin-bottom: 10px;
-    text-align: center;
+aside article h3.benefit-title { /* Select all ASIDE ARTICLE H3 titles with "benefit-title" class */
+    margin-bottom: 10px; /* Setting the bottom margin for h3 */
+    text-align: center; /* Setting the text-align to center for h3 */
 }
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+aside article.benefit-item figure img { /* Selects all ASIDE ARTICLE FIGURES with "benefit-item" class */
+    display: block;     
+    margin: 10px auto; /* Setting the margin for the "benefit-item" class so its automatic with 10px from left and right */
+    max-width: 150px; /* Setting the max-width for the "benefit-item" class so its automatic with 150px from left and right */
 }
 /* END OF ASIDE entries */
 /*  END OF ASIDE AREA */
@@ -169,6 +153,6 @@ aside article h3.benefit-title {
     text-align: center;
 }
 
-.footer h2 {
+.footer .footer-title {
     font-size: 20px;
 }
