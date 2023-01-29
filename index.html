@@ -1,41 +1,47 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us"> <!-- START OF html tag, defining the HTML lang used -->
+    <head><!-- START OF html HEAD tag -->
+        <!-- Setting encoding -->
+            <meta charset="UTF-8" /> 
+        <!-- Setting viewport default scale -->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Linking up the style sheet -->
+            <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- HTML Page/Document Title -->
+            <title>website</title>
+    </head> <!-- END of html HEAD tag -->
+    <body><!-- START OF BODY tag -->
+    <header class="header">    <!-- START OF HEADER tag -->
+        <hgroup class="header-logo"> <!-- START OF HGROUP - Assigning a header group tag to the title/logo -->
+            <h1 class="logo-title">Hori<span class="seo">seo</span>n</h1>  <!-- Setting a H1 tag for the title, and inside there is a SPAN element with class SEO that allows custom styling for the letters S E O -->
+        </hgroup> <!-- END OF HGROUP tag -->
+        <nav class="nav-bar"> <!-- START OF NAV tag, starts the navigation area -->
+            <ul class="nav-list"> <!-- START OF UL tag, starts the navigation list -->
+                <li class="nav-list-item"> <!-- START OF LI tag, starts the navigation list item -->
+                    <a class="nav-list-item-link" href="#search-engine-optimization">Search Engine Optimization</a> <!-- Navigation list item link -->
+                </li> <!-- END of LI tag -->
+                <li> <!-- START OF LI tag, starts the navigation list item -->
+                    <a href="#online-reputation-management">Online Reputation Management</a> <!-- Navigation list item link -->
+                </li> <!-- END of LI tag -->
+                <li> <!-- START OF LI tag, starts the navigation list item -->
+                    <a href="#social-media-marketing">Social Media Marketing</a> <!-- Navigation list item link -->
+                </li> <!-- END of LI tag -->
+            </ul> <!-- END OF UL tag -->
+        </nav> <!-- END OF NAV tag -->
+    </header>    <!-- END OF HEADER tag -->
 
-<head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
-</head>
 
-<body>
-    <header class="header">
-        <hgroup class="header-logo"> 
-            <h1 class="logo-title">Hori<span class="seo">seo</span>n</h1>
-        </hgroup>
-        <nav class="nav-bar">
-            <ul class="nav-list">
-                <li class="nav-list-item">
-                    <a class="nav-list-item-link" href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
+    <section class="hero"> <!-- START OF SECTION tag, for the HERO area styling and images assigned via style.css file -->
+    </section> <!-- END of SECTION tag, for the HERO area-->
+    <main class="content"> <!-- START OF MAIN tag, for the MAIN area -->
+        <article class="search-engine-optimization">    <!-- START OF ARTICLE tag, for the Search Engine Optimization entry -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        </article> <!-- END OF ARTICLE tag -->
+        <article id="online-reputation-management" class="online-reputation-management"> <!-- START OF ARTICLE tag, for the Online Reputation Management entry -->
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -72,13 +78,12 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
+    </main> <!-- END of MAIN tag -->
+    <footer class="footer"> <!-- START OF html FOOTER tag, for the footer area -->
+        <h2>Made with ❤️️ by Horiseon</h2> <!-- START OF h2 tag, for the footer title -->
+        <p> <!-- START of p tag, for the footer copyright -->
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
-</body>
-
-</html>
+    </footer> <!-- END OF html FOOTER tag -->
+</body> <!-- END OF html BODY tag -->
+</html> <!-- END OF html tag -->
